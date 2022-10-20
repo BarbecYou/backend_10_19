@@ -25,10 +25,14 @@ for (let r of results){
     console.log(r.result());
 }
 
-// document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', init);
 
-// function init(){
-//     document.getElementById('footballHozzaad')!.addEventListener('click', {
+function init(){
+    document.getElementById('footballHozzaad')!.addEventListener('click', hozzaad);
+    document.getElementById('marathonHozzaad')!.addEventListener('click', hozzaad);
+    document.getElementById('calvinballHozzaad')!.addEventListener('click', hozzaad)
+}
 
-//     });
-// }
+function hozzaad(){
+    
+}
